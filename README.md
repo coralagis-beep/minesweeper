@@ -36,12 +36,16 @@
 3. 系統將會自動將所有程式碼與 Commit 推送至您的 GitHub！
 
 ### 方法二：使用 Git 指令推送到您的 GitHub
-1. 先在 [GitHub](https://github.com/new) 建立一個新的空白專案（例如命名為 `minesweeper`，不要勾選初始化 README）。
-2. 在終端機執行下列指令（將 `<your-username>` 替換為您的 GitHub 帳號）：
+1. 先前往 [GitHub 建立新專案](https://github.com/new)：
+   - **Repository name**: `minesweeper`
+   - **Public**（公開）
+   - **不要勾選** README / .gitignore / license
+   - 點擊 **Create repository**
+2. 在您的本機終端機直接執行（或使用 GitHub Desktop）：
 
 ```bash
 # 關聯您的 GitHub 儲存庫
-git remote add origin https://github.com/<your-username>/minesweeper.git
+git remote add origin https://github.com/coralagis-beep/minesweeper.git
 
 # 設定主分支為 main
 git branch -M main
