@@ -28,33 +28,7 @@
 
 ---
 
-## 🚀 如何發布至您的 GitHub
 
-### 方法一：使用 AI Studio 一鍵同步至 GitHub（最推薦）
-1. 在 AI Studio 畫面右上角，點擊 **「Export」** 或 **「Sync with GitHub」**（或「分享 / 匯出」選單）。
-2. 授權您的 GitHub 帳號並選擇建立新的儲存庫（Repository，例如 `minesweeper`）。
-3. 系統將會自動將所有程式碼與 Commit 推送至您的 GitHub！
-
-### 方法二：使用 Git 指令推送到您的 GitHub
-1. 先前往 [GitHub 建立新專案](https://github.com/new)：
-   - **Repository name**: `minesweeper`
-   - **Public**（公開）
-   - **不要勾選** README / .gitignore / license
-   - 點擊 **Create repository**
-2. 在您的本機終端機直接執行（或使用 GitHub Desktop）：
-
-```bash
-# 關聯您的 GitHub 儲存庫
-git remote add origin https://github.com/coralagis-beep/minesweeper.git
-
-# 設定主分支為 main
-git branch -M main
-
-# 推送所有程式碼至 GitHub
-git push -u origin main
-```
-
----
 
 ## 🌐 一鍵啟用 GitHub Pages 免費線上遊玩
 
