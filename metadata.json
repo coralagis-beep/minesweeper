@@ -1,0 +1,6 @@
+{
+  "name": "經典踩地雷 Minesweeper",
+  "description": "經典 Windows 復古風格踩地雷遊戲，包含地雷計數、計時器、遞迴展開空白、右鍵插旗標記與勝負判定。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
